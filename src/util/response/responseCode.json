@@ -1,0 +1,214 @@
+{
+  "success": {
+    "code": 200,
+    "headercode": 200,
+    "description": "Success"
+  },
+  "invheader": {
+    "code": 400,
+    "headercode": 200,
+    "description": "Invalid header"
+  },
+  "bodyempval": {
+    "code": 401,
+    "headercode": 200,
+    "description": "Empty values not allowed"
+  },
+  "invacred": {
+    "code": 402,
+    "headercode": 200,
+    "description": "Invalid credentials"
+  },
+  "invkey": {
+    "code": 403,
+    "headercode": 200,
+    "description": "Key validation error"
+  },
+  "sesexpired": {
+    "code": 405,
+    "headercode": 200,
+    "description": "Session expired"
+  },
+  "permden": {
+    "code": 306,
+    "headercode": 200,
+    "description": "Permission Denied"
+  },
+  "accexist": {
+    "code": 307,
+    "headercode": 200,
+    "description": "Account already exist"
+  },
+  "cantfinacc": {
+    "code": 308,
+    "headercode": 200,
+    "description": "Account does not exist"
+  },
+  "userexist": {
+    "code": 309,
+    "headercode": 200,
+    "description": "User already exist"
+  },
+  "invbody": {
+    "code": 310,
+    "headercode": 200,
+    "description": "Invalid json body"
+  },
+  "schemaerr": {
+    "code": 512,
+    "headercode": 200,
+    "description": "Error in schema"
+  },
+  "interr": {
+    "code": 500,
+    "headercode": 500,
+    "description": "Internal error"
+  },
+  "accdeact": {
+    "code": 312,
+    "headercode": 200,
+    "description": "Account has been deactivated please contact Support"
+  },
+  "accnotverify": {
+    "code": 314,
+    "headercode": 200,
+    "description": "Account not verified"
+  },
+  "sessexist": {
+    "code": 315,
+    "headercode": 200,
+    "description": "User is already logged in from another device/computer"
+  },
+  "unauth": {
+    "code": 316,
+    "headercode": 200,
+    "description": "Authorization error"
+  },
+  "notsamepass": {
+    "code": 318,
+    "headercode": 200,
+    "description": "Old password is not same"
+  },
+  "accverified": {
+    "code": 319,
+    "headercode": 200,
+    "description": "Account already verified"
+  },
+  "slkgen": {
+    "code": 407,
+    "headercode": 200,
+    "description": "SLK has expired or not available for this account "
+  },
+  "slkgensuccessfull": {
+    "code": 200,
+    "headercode": 200,
+    "description": "SLK generated successfully"
+  },
+  "slkactivated": {
+    "code": 200,
+    "headercode": 200,
+    "description": "SLK activated successfully "
+  },
+  "slkdeactivated": {
+    "code": 200,
+    "headercode": 200,
+    "description": "SLK deactivated successfully "
+  },
+
+  "limitexceeded": {
+    "code": 406,
+    "headercode": 200,
+    "description": "credits limit exceeded "
+  },
+  "nocredits": {
+    "code": 408,
+    "headercode": 200,
+    "description": "No Credits "
+  },
+
+  "invotp": {
+    "code": 531,
+    "headercode": 200,
+    "description": "Invalid OTP"
+  },
+  "insuffad": {
+    "code": 530,
+    "headercode": 200,
+    "description": "Insufficient credits"
+  },
+  "emailexist": {
+    "code": 532,
+    "headercode": 200,
+    "description": "Email already exists"
+  },
+  "accexpired": {
+    "code": 533,
+    "headercode": 200,
+    "description": "Your account has reached its expiration date."
+  },
+  "creditslimit": {
+    "code": 534,
+    "headercode": 200,
+    "description": "Credits are not in limit."
+  },
+  "invaccesstype": {
+    "code": 311,
+    "headercode": 200,
+    "description": "Access Denied."
+  },
+  "incorrectrrn": {
+    "code": 501,
+    "headercode": 200,
+    "description": "Incorrect RRN"
+  },
+  "incorrectemail": {
+    "code": 502,
+    "headercode": 200,
+    "description": "Enter valid Email Id"
+  },
+  "incorrectenv": {
+    "code": 503,
+    "headercode": 200,
+    "description": "Incorrect ENV"
+  },
+  "incorrectgender": {
+    "code": 504,
+    "headercode": 200,
+    "description": "Incorrect Gender"
+  },
+  "incorrectname": {
+    "code": 505,
+    "headercode": 200,
+    "description": "incorrect Name"
+  },
+  "incorrectackno": {
+    "code": 506,
+    "headercode": 200,
+    "description": "incorrect Ackno"
+  },
+  "incorrectdob": {
+    "code": 507,
+    "headercode": 200,
+    "description": "incorrect date of birth"
+  },
+  "nocreditsinacc": {
+    "code": 508,
+    "headercode": 200,
+    "description": "No Credits in Account"
+  },
+  "futuredate": {
+    "code": 509,
+    "headercode": 200,
+    "description": "DOB can't be future date"
+  },
+ "dobrange" : {
+    "code": 510,
+    "headercode": 200,
+    "description": "DOB is either below 18 years or above 125 years"
+  },
+  "samepass":{
+    "code": 466,
+    "headercode": 200,
+    "description": "Old and new passwords are should not be same" 
+  }
+}
